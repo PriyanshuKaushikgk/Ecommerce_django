@@ -75,6 +75,10 @@ TEMPLATES = [
 WSGI_APPLICATION = 'GreatKart.wsgi.application'
 
 
+# use custom user model
+AUTH_USER_MODEL = 'accounts.Account'
+
+
 # Database
 # https://docs.djangoproject.com/en/5.1/ref/settings/#databases
 
